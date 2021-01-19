@@ -16,7 +16,7 @@ end run
 @result		Starts QuickTime Player with appropriate stream and exits or returns error -128 and exits.
 *)
 on main()
-	set nasaStreamList to {{id:1, name:"NASA Public-Education", URL:"6540154"}, {id:2, name:"ISS HD Earth Viewing Experiment", URL:"17074538"}, {id:3, name:"Live ISS Stream", URL:"9408562"}, {id:4, name:"NASA TV Media", URL:"10414700"}, {id:5, name:"NASA LaRC", URL:"7549153"}, {id: 6, name:"CSBF Operations (exterior)", URL:"16009219"}, {id:7, name:"CSBF Operations (interior)", URL:"10208765"}}
+	set nasaStreamList to {{id:1, name:"NASA Public-Education", URL:"6540154"}, {id:2, name:"ISS HD Earth Viewing Experiment", URL:"17074538"}, {id:3, name:"Live ISS Stream", URL:"9408562"}, {id:4, name:"NASA TV Media", URL:"10414700"}, {id:5, name:"NASA LaRC", URL:"7549153"}, {id:6, name:"CSBF Operations", URL:"10208765"}}
 	
 	set streamIDs to {}
 	set streamNames to {}
