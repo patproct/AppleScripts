@@ -9,7 +9,7 @@ requires indexOfItemInList()
 
 on run
 	set wfiuStreamList to {}
-	set wfiuStreamList to {{id:1, name:"WFIU HD1", URL:"https://bl-vi-143.uits.indiana.edu:8443/wfiu_hi"}, {id:2, name:"WFIU HD2", URL:"https://bl-vi-143.uits.indiana.edu:8443/wfiu2_hi"}, {id:3, name:"WIUX main", URL:"http://hannibal.ucs.indiana.edu:8080/wiuxhigh"}, {id:4, name:"WIUX B-side", URL:"http://hannibal.ucs.indiana.edu:8080/wiuxstudiob"}}
+	set wfiuStreamList to {{id:1, name:"WFIU HD1", URL:"https://bl-vi-143.uits.indiana.edu:8443/wfiu_hi"}, {id:2, name:"WFIU HD2", URL:"https://bl-vi-143.uits.indiana.edu:8443/wfiu2_hi"}, {id:3, name:"WIUX main", URL:"http://hannibal.ucs.indiana.edu:8080/wiuxhigh"}, {id:4, name:"WIUX B-side", URL:"http://hannibal.ucs.indiana.edu:8080/wiuxstudiob"}, {id:5, name:"WFYI HD1", URL:"https://wfyi-iad.streamguys1.com:443/live"}}
 	
 	set streamIDs to {}
 	set streamNames to {}
