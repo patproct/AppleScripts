@@ -2,7 +2,7 @@
 Written January 19, 2021
 
 This AppleScript displays options for streaming NASA
-HD audio streams in QuickTime.
+video streams in QuickTime.
 *)
 
 on run
